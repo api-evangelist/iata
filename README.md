@@ -1,42 +1,76 @@
 # IATA (iata)
-The International Air Transport Association (IATA) is a global trade association representing and serving the airline industry. IATA plays a crucial role in setting standards and regulations for the aviation industry, promoting safety and supporting the development of sustainable and efficient air transportation. The association also provides a platform for airlines to collaborate, share best practices, and address common challenges. Additionally, IATA offers a range of services and expertise to help airlines improve their operations, reduce costs, and enhance the passenger experience. Overall, IATA works to advance the global aviation industry and ensure that air travel remains safe, secure, and accessible for all.
+
+The International Air Transport Association (IATA) is the global trade association representing and serving the airline industry. IATA sets standards for the aviation industry, promotes cooperation among airlines, and operates an Open API Hub providing access to airline-published APIs for flight status, destinations, baggage, ticket validation, cargo, digital identity, and related aviation data services.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/iata/refs/heads/main/apis.yml)
 
 ## Scope
 
-- **Type:** Index 
-- **Position:** Consumer 
-- **Access:** 3rd-Party 
+- **Type:** Index
+- **Position:** Consuming
+- **Access:** 3rd-Party
 
-## Tags:
+## Tags
 
- - Airlines, Airports, Aviation, Standards
-
-## Timestamps
-
-- **Created:** 2025-03-01 
-- **Modified:** 2025-03-02 
+- Airlines, Airports, Aviation, Cargo, Standards, Travel
 
 ## APIs
 
-### IATA
-The International Air Transport Association (IATA) is a trade association that represents and serves the airline industry worldwide. It sets standards, promotes cooperation among airlines, and advocates for policies that enhance the efficiency and safety of air travel. IATA also provides a range of services to its member airlines, including training, consultation, and industry data analysis. Additionally, it plays a key role in setting regulations and guidelines for the industry, facilitating global air travel and promoting sustainable practices. Through its work, IATA helps to ensure that airlines can operate safely, efficiently, and in compliance with international aviation standards.
+### IATA Open API Hub
+The IATA Open API Hub aggregates airline-published APIs covering flight status, customer flight info, destinations, port lists, ticket validation, baggage claims, pet travel, and verifiable credential revocation lists from carriers including Lufthansa, Air France, Qantas, Singapore Airlines, Turkish Airlines, China Southern, United, Avianca, and IATA itself.
 
-**Human URL:** [ https://developer.iata.org/en/]( https://developer.iata.org/en/)
+**Human URL:** [https://api.developer.iata.org/hub/](https://api.developer.iata.org/hub/)
 
+#### Tags
 
-#### Tags:
-
- - Airlines, Airports, Aviation, Standards
+- Airlines, Aviation, Flight Status
 
 #### Properties
 
-- [Documentation]( https://developer.iata.org/en/)
+- [Documentation](https://api.developer.iata.org/hub/)
+- [Portal](https://developer.iata.org/en/)
+
+### IATA ONE Record
+ONE Record is IATA's standard for data sharing in air cargo, defining a single record view of shipments accessible across stakeholders via standardized APIs and a shared data model.
+
+**Human URL:** [https://onerecord.iata.org/](https://onerecord.iata.org/)
+
+#### Tags
+
+- Cargo, Logistics, Standards
+
+#### Properties
+
+- [Documentation](https://onerecord.iata.org/)
+
+### IATA New Distribution Capability (NDC)
+NDC is an XML-based data transmission standard that enhances the capability of communications between airlines and travel agents, enabling rich content and personalized offers across the airline distribution channel.
+
+**Human URL:** [https://www.iata.org/en/programs/airline-distribution/ndc/](https://www.iata.org/en/programs/airline-distribution/ndc/)
+
+#### Tags
+
+- Airlines, Distribution, Standards
+
+#### Properties
+
+- [Documentation](https://www.iata.org/en/programs/airline-distribution/ndc/)
+
+## Properties
+
+- [Portal](https://developer.iata.org/en/)
+- [Hub](https://api.developer.iata.org/hub/)
+- [Website](https://www.iata.org/)
+- [Support](https://www.iata.org/en/contact-us/)
+- [Code Samples](https://github.com/airtechzone)
+
+## Timestamps
+
+- **Created:** 2025-03-01
+- **Modified:** 2026-04-28
 
 ## Maintainers
 
 **FN:** Kin Lane
 
-**Email:** info@apievangelist.com
-
+**Email:** kin@apievangelist.com
