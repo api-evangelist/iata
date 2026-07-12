@@ -1,0 +1,28 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: developer.iata.org
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 27 14:07:57 2026 GMT
+  hsts: true
+  hsts_max_age: 2592000
+- host: www.iata.org
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 27 14:08:46 2026 GMT
+  hsts: true
+  hsts_max_age: 2592000
+- host: api.developer.iata.org
+  https: true
+  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate
+    (_ssl.c:1082)'
+  hsts: null
+domains:
+- domain: iata.org
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject

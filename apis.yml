@@ -70,6 +70,10 @@ apis:
       - type: Documentation
         url: https://www.iata.org/en/programs/airline-distribution/ndc/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/iata-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/iata-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/international-air-transport-association-iata
   - type: Portal
@@ -82,6 +86,8 @@ common:
     url: https://www.iata.org/en/contact-us/
   - type: Code Samples
     url: https://github.com/airtechzone
+  - url: https://www.iata.org/api/rss/pressrelease
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
