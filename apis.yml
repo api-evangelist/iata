@@ -31,7 +31,7 @@ tags:
   - Travel
 created: '2025-03-01'
 modified: '2026-04-28'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: iata:iata-open-api-hub
     name: IATA Open API Hub
@@ -96,7 +96,7 @@ common:
     url: https://www.iata.org/
   - type: Support
     url: https://www.iata.org/en/contact-us/
-  - type: Code Samples
+  - type: CodeExamples
     url: https://github.com/airtechzone
   - url: https://www.iata.org/api/rss/pressrelease
     type: Blog
