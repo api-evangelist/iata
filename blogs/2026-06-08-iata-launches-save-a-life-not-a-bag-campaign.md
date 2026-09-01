@@ -1,5 +1,5 @@
 ---
-title: "IATA Launches "Save a Life, Not a Bag" Passenger Safety Campaign"
+title: "IATA Launches \"Save a Life, Not a Bag\" Passenger Safety Campaign"
 url: "https://www.iata.org/en/pressroom/2026-releases/06-08-iata-launches-save-a-life-not-a-bag-passenger-safety-campaign/"
 date: "2026-06-08"
 author: ""
