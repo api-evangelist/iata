@@ -1,4 +1,4 @@
-# IATA (iata)
+# IATA
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,75 +66,104 @@
 
 The International Air Transport Association (IATA) is the global trade association representing and serving the airline industry. IATA sets standards for the aviation industry, promotes cooperation among airlines, and operates an Open API Hub providing access to airline-published APIs for flight status, destinations, baggage, ticket validation, cargo, digital identity, and related aviation data services.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/iata/refs/heads/main/apis.yml)
+**Areas:** Airlines · Airports · Aviation · Cargo · Standards · Travel
 
-## Scope
+## IATA on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for IATA is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/iata/](https://apis.io/providers/iata/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (3)
 
-- Airlines, Airports, Aviation, Cargo, Standards, Travel
+- [IATA Open API Hub](https://apis.io/apis/iata/iata-open-api-hub/) — The IATA Open API Hub aggregates airline-published APIs covering flight status, customer flight info, destinations, port lists, ticket validation, baggage…
+- [IATA ONE Record](https://apis.io/apis/iata/one-record/) — ONE Record is IATA's standard for data sharing in air cargo, defining a single record view of shipments accessible across stakeholders via standardized APIs…
+- [IATA New Distribution Capability (NDC)](https://apis.io/apis/iata/ndc/) — NDC is an XML-based data transmission standard that enhances the capability of communications between airlines and travel agents, enabling rich content and…
 
-## APIs
+### Published properties
 
-### IATA Open API Hub
-The IATA Open API Hub aggregates airline-published APIs covering flight status, customer flight info, destinations, port lists, ticket validation, baggage claims, pet travel, and verifiable credential revocation lists from carriers including Lufthansa, Air France, Qantas, Singapore Airlines, Turkish Airlines, China Southern, United, Avianca, and IATA itself.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Human URL:** [https://api.developer.iata.org/hub/](https://api.developer.iata.org/hub/)
+#### Security (2)
 
-#### Tags
+Authentication, trust centre, and vulnerability disclosure.
 
-- Airlines, Aviation, Flight Status
+- [Iata Domain Security](https://apis.io/security/iata/iata-domain-security/)
+- [Iata Vulnerability Disclosure](https://apis.io/security/iata/iata-vulnerability-disclosure/)
 
-#### Properties
+#### Plans and pricing (1)
 
-- [Documentation](https://api.developer.iata.org/hub/)
-- [Portal](https://developer.iata.org/en/)
+Published plans, tiers and prices.
 
-### IATA ONE Record
-ONE Record is IATA's standard for data sharing in air cargo, defining a single record view of shipments accessible across stakeholders via standardized APIs and a shared data model.
+- [Iata Plans Pricing](https://apis.io/plans/iata/iata-plans-pricing/)
 
-**Human URL:** [https://onerecord.iata.org/](https://onerecord.iata.org/)
+#### Rate limits (1)
 
-#### Tags
+Published request limits.
 
-- Cargo, Logistics, Standards
+- [Iata Rate Limits](https://apis.io/rate-limits/iata/iata-rate-limits/)
 
-#### Properties
+#### FinOps (1)
 
-- [Documentation](https://onerecord.iata.org/)
+What the API costs to run, by operation.
 
-### IATA New Distribution Capability (NDC)
-NDC is an XML-based data transmission standard that enhances the capability of communications between airlines and travel agents, enabling rich content and personalized offers across the airline distribution channel.
+- [Iata Finops](https://apis.io/finops/iata/iata-finops/)
 
-**Human URL:** [https://www.iata.org/en/programs/airline-distribution/ndc/](https://www.iata.org/en/programs/airline-distribution/ndc/)
+## Where to find this API
 
-#### Tags
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- Airlines, Distribution, Standards
-
-#### Properties
-
-- [Documentation](https://www.iata.org/en/programs/airline-distribution/ndc/)
-
-## Properties
-
-- [Portal](https://developer.iata.org/en/)
-- [Hub](https://api.developer.iata.org/hub/)
 - [Website](https://www.iata.org/)
 - [Support](https://www.iata.org/en/contact-us/)
-- [Code Samples](https://github.com/airtechzone)
+- [Blog](https://www.iata.org/api/rss/pressrelease)
 
-## Timestamps
+## API Evangelist rating
 
-- **Created:** 2025-03-01
-- **Modified:** 2026-04-28
+**Kin Score 14.3** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Maintainers
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 6.5 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 7.9 |
 
-**FN:** Kin Lane
+**Agent readiness 1.9** — human-only
 
-**Email:** kin@apievangelist.com
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | documented (partial credit) |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/iata/](https://apis.io/providers/iata/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for IATA: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/iata/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
